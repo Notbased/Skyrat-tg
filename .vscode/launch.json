@@ -1,6 +1,13 @@
 {
 	"version": "0.2.0",
 	"configurations": [
+
+	{
+		"type": "byond",
+		"request": "attach",
+		"name": "Attach to Debugger",
+		"port": 2448
+	},
 		{
 			"type": "byond",
 			"request": "launch",

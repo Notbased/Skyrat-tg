@@ -168,6 +168,16 @@
 	foodtypes = VEGETABLES | BREAKFAST
 	venue_value = FOOD_PRICE_NORMAL
 
+/obj/item/food/soup/ramen
+	name = "plain ramen"
+	desc = "Just homemade ramen"
+	icon_state = "Ramen rough draft"
+	food_reagents = list(/datum/reagent/consumable/nutriment = 5, /datum/reagent/consumable/nutriment/protein = 10, /datum/reagent/water = 5, /datum/reagent/consumable/nutriment/vitamin = 6)
+	tastes = list("Wet Noodles" = 1, "Cabbage and Noodles" = 1)
+	foodtypes = VEGETABLES
+	venue_value = FOOD_PRICE_NORMAL
+	w_class = WEIGHT_CLASS_NORMAL
+
 /obj/item/food/soup/mushroom
 	name = "chantrelle soup"
 	desc = "A delicious and hearty mushroom soup."
